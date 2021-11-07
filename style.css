@@ -1,0 +1,25 @@
+#contries{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 30px;
+    color: rgb(60, 51, 179);
+    
+}
+
+.country{
+    border : 1px solid navy;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: coral;
+}
+.countryName{
+    font-size: 45px;
+    color: blueviolet;
+    
+}
+#countryDetals img{
+    height: 200px;
+    width: 450px;
+}
